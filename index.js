@@ -19,7 +19,7 @@ var S = {
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
         function (callback) {
-            window.setTimeout(callback, 4000 / 60);
+            window.setTimeout(callback, 2000 / 60);
         };
         return {
             init: function (el) {
@@ -112,7 +112,7 @@ var S = {
                         } else {
                             S.Shape.switchShape(S.ShapeBuilder.letter(index), true);
                         }
-                    }, 1000, value, true);
+                    }, 2000, value, true);
                     break;
                     case 'rectangle':
                     value = value && value.split('x');
