@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
             //想说什么
-            S.UI.simulate("劉芯玥|祝你|生日快乐哟|本來|想畫一只龜的|然後發現|自己不會畫...-_-|#countdown 3|#rectangle 15x15|#circle 12 |#time");
+            S.UI.simulate("劉芯玥|祝你|生日快乐哟|本來|想畫一只龜的|然後發現|我不會畫-_-|#countdown 3|#rectangle 15x15|#circle 12 |#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
