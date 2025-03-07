@@ -19,7 +19,7 @@ var S = {
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
         function (callback) {
-            window.setTimeout(callback, 2500 / 60);
+            window.setTimeout(callback, 4000 / 60);
         };
         return {
             init: function (el) {
